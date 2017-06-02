@@ -15,6 +15,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Autor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Livro.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\LivrosViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml">

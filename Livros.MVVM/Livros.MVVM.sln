@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LivrosApp", "src\Presentation\LivrosApp\LivrosApp\LivrosApp.shproj", "{571F8A71-256F-46A6-9C8F-B02E622025B4}"
 EndProject
@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Presentation\LivrosApp\LivrosApp\LivrosApp.projitems*{571f8a71-256f-46a6-9c8f-b02e622025b4}*SharedItemsImports = 13
 		src\Presentation\LivrosApp\LivrosApp\LivrosApp.projitems*{82d1f992-ddc1-4a5a-9599-d73544d1fd84}*SharedItemsImports = 4
+		src\Presentation\LivrosApp\LivrosApp\LivrosApp.projitems*{8b9104c3-44ed-4700-8462-fda169192146}*SharedItemsImports = 4
 		src\Presentation\LivrosApp\LivrosApp\LivrosApp.projitems*{fa828da6-3322-482d-8b03-e6fd54b0f68d}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

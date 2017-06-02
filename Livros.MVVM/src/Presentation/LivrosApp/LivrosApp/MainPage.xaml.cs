@@ -12,6 +12,7 @@ namespace LivrosApp
 		public MainPage()
 		{
 			InitializeComponent();
+            this.BindingContext = new ViewModel.LivrosViewModel();
 		}
 	}
 }

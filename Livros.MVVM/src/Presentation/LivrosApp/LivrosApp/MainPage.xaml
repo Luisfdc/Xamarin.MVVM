@@ -4,8 +4,17 @@
              xmlns:local="clr-namespace:LivrosApp"
              x:Class="LivrosApp.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout Padding="20" Spacing="10">
+        <Button Text="Carregar" Command="{Binding CarregarLivros}"></Button>
+
+        <ListView ItemsSource="{Binding Livros}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Titulo}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </StackLayout>
 
 </ContentPage>
